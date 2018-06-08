@@ -11804,16 +11804,16 @@ Esse estudo, realizerei intuições acerca dos tripulantes e das circustância q
 <br>
 Dentre o conjundo de dados, gostaria de saber a resposta para algumas respostas para as perguntas.</p>
 <ul>
-    <li><s>1. Quantos foram os que sobrevieram?</s></li>
-    <li><s>2. Quantos foram os que morreram na catástrofe ?</s> </li>
-    <li><s>3. Dentre os que sobreviveram, qual a média da idade ?</s></li>
-    <li><s>4. Dentre os que não sobreviram, qual a média de idade ?</s></li>
-    <li><s>5. Qual a relação entre os sobreviventes e a classe de ingresso ?</s></li>
-    <li><s>6. Qual ponto de embarque recebeu mais passageiros ?</s></li>
-    <li><s>7. Qual o sexo mais relevante entre os sobreviventes ?</s></li>
-    <li><s>8. Quantos bilhetes unicos existem ?</s></li>
-    <li><s>9. Quantos bilhetes duplicados existem ?</s></li>
-    <li><s>10. Quais as caracteristicas dos passageiros com bilhetes duplicados?</s></li>
+    <li>1. Quantos foram os que sobrevieram?</li>
+    <li>2. Quantos foram os que morreram na catástrofe ?</li>
+    <li>3. Dentre os que sobreviveram, qual a média da idade ?</li>
+    <li>4. Dentre os que não sobreviram, qual a média de idade ?</li>
+    <li>5. Qual a relação entre os sobreviventes e a classe de ingresso ?</li>
+    <li>6. Qual ponto de embarque recebeu mais passageiros ?</li>
+    <li>7. Qual o sexo mais relevante entre os sobreviventes ?</li>
+    <li>8. Quantos bilhetes unicos existem ?</li>
+    <li>9. Quantos bilhetes duplicados existem ?</li>
+    <li>10. Quais as caracteristicas dos passageiros com bilhetes duplicados?</li>
 </ul>
 </div>
 </div>
@@ -11829,7 +11829,7 @@ Dentre o conjundo de dados, gostaria de saber a resposta para algumas respostas 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">plotnine</span> <span class="k">import</span> <span class="o">*</span>
@@ -11866,7 +11866,7 @@ Dentre o conjundo de dados, gostaria de saber a resposta para algumas respostas 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># carregamento do arquivo.</span>
@@ -11913,7 +11913,7 @@ Identidade de Passageiros</td></tr>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Número de linhas&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -11946,7 +11946,7 @@ Número de linhas 12
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># exibe a 5 primeiras linhas dos dados</span>
@@ -11963,7 +11963,7 @@ Número de linhas 12
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -12106,7 +12106,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#removendo coluna, essas colunas não serão necessária nas analises</span>
@@ -12124,7 +12124,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[5]:</div>
+<div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -12226,7 +12226,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#imprime as estatísticas gerais do conjunto de dado</span>
@@ -12243,7 +12243,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -12303,7 +12303,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
       <th>top</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>Jansson, Mr. Carl Olof</td>
+      <td>Odahl, Mr. Nils Martin</td>
       <td>male</td>
       <td>NaN</td>
       <td>CA. 2343</td>
@@ -12420,7 +12420,7 @@ Esta váriaveis não são pertinentes para as perguntas solicitadas.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -12472,7 +12472,7 @@ memory usage: 55.8+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -12488,7 +12488,7 @@ memory usage: 55.8+ KB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -12627,7 +12627,7 @@ Estou transformando os rótulos `zero` e `um` em algo mais legível com a funç�
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cat_Survived&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">Survived</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;morto&quot;</span><span class="p">,</span> <span class="s2">&quot;sobrevivido&quot;</span><span class="p">][</span><span class="n">x</span><span class="p">])</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;category&quot;</span><span class="p">)</span>
@@ -12645,7 +12645,7 @@ Estou transformando os rótulos `zero` e `um` em algo mais legível com a funç�
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[9]:</div>
+<div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -12685,7 +12685,7 @@ Categories (2, object): [morto, sobrevivido]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">cat_Survived</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">colors</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tab:red&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:blue&#39;</span><span class="p">),</span>
@@ -12704,7 +12704,7 @@ Categories (2, object): [morto, sobrevivido]</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -12734,9 +12734,18 @@ Categories (2, object): [morto, sobrevivido]</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><i>Perceve-se na figura 1,  quase 1/3 das pessoas morreram.</i></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cat_Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -12752,7 +12761,7 @@ Categories (2, object): [morto, sobrevivido]</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[11]:</div>
+<div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -12806,7 +12815,7 @@ Name: cat_Survived, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">();</span>
@@ -12826,7 +12835,7 @@ Name: cat_Survived, dtype: int64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -12882,7 +12891,7 @@ Dentre esses, percebece-se que algumas idades não estavam preenchidades.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SEM idade preenchidas: &quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">Age</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
@@ -12932,7 +12941,7 @@ COM idade preenchidas:  714
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#faz a cópia do dataFrame para pegar a idade média dos sobreviventes</span>
@@ -12969,7 +12978,7 @@ COM idade preenchidas:  714
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[14]:</div>
+<div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -12989,7 +12998,7 @@ Name: faixa_etaria_qcut, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_histage</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">&#39;Total&#39;</span><span class="p">:</span> <span class="n">df_age</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">],</span>
@@ -13057,7 +13066,7 @@ Name: faixa_etaria_qcut, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_age</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;faixa_etaria&#39;</span><span class="p">)[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -13073,7 +13082,7 @@ Name: faixa_etaria_qcut, dtype: int64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[16]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -13094,7 +13103,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">facet</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">FacetGrid</span><span class="p">(</span><span class="n">df_age</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;cat_Survived&quot;</span><span class="p">,</span><span class="n">aspect</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">hue_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">]})</span>
@@ -13139,7 +13148,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><i>Como percebe-se, a média de idade dos sobreviventes esta até 10 anos, e os não sobreviventes estão entre 18 a 30 anos.<br> No histograma da figura 2.1, mostra que havia mais passageiro com idade entre 18 a 32 anos. Mas neste gráfico quando se faz a analise percebe-se que os mortos foram entre 18 a 28 anos</i></p>
+<p><i>Como percebe-se, a média de idade dos sobreviventes esta até 10 anos, e os não sobreviventes estão entre 18 a 30 anos.<br> No histograma da `figura 2.1`, mostra que havia mais passageiro com idade entre 18 a 32 anos. Mas neste gráfico quando se faz a analise percebe-se que os mortos foram entre 18 a 28 anos</i></p>
 
 </div>
 </div>
@@ -13163,7 +13172,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vcolor2</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tab:green&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:blue&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:red&#39;</span><span class="p">,</span> 
@@ -13190,7 +13199,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># listando a quantidade de class por tipo</span>
@@ -13208,7 +13217,7 @@ Name: Survived, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[19]:</div>
+<div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -13264,7 +13273,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">list_cores</span> <span class="o">=</span> <span class="s1">&#39;tab:green&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:blue&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:gray&#39;</span> 
@@ -13286,7 +13295,7 @@ Name: Survived, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[20]:</div>
+<div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -13320,14 +13329,14 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><i> Na figura 3.1, apresenta a quantidade de pessoas por classe e percebe-se que há mais pessoas na classe inferior</i></p>
+<p><i> Na `figura 3.1`, apresenta a quantidade de pessoas por classe e percebe-se que há mais pessoas na classe inferior</i></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;cat_Pclass&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span>
@@ -13346,7 +13355,7 @@ Name: Survived, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[21]:</div>
+<div class="prompt output_prompt">Out[33]:</div>
 
 
 
@@ -13380,14 +13389,14 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><i>Na figura 3.1, mostra que havia mais pessoas da classe inferior, mas neste gráfico da figura 3.2, mostra que houve mais sobrevivente na classe rica.</i></p>
+<p><i>Na `figura 3.1`, mostra que havia mais pessoas da classe inferior, mas neste gráfico da `figura 3.2`, mostra que houve mais sobrevivente na classe rica.</i></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_sobrevivetes</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;cat_Pclass&#39;</span><span class="p">)[[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -13400,7 +13409,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_sobrevivetes</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">x</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span><span class="o">*</span><span class="mi">100</span><span class="p">)[</span><span class="s1">&#39;Survived&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span>
@@ -13422,7 +13431,7 @@ Name: Survived, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[23]:</div>
+<div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -13456,7 +13465,7 @@ Name: Survived, dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><i> Na figura acima 3.3 mostra que houve mais morte na classe baixa</p>
+<p><i> Na `figura 3.3` mostra que houve mais morte na classe baixa</i></p>
 
 </div>
 </div>
@@ -13584,7 +13593,7 @@ Embarked (Embarque): Porto de embarque (C= Chebourg, Q = Queenstown, S=Southampt
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">embaque</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;bar&#39;</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> 
-              <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Quantidade de pessoas por embarque 4.1&#39;</span><span class="p">,</span>
+              <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Quantidade de pessoas por embarque (figura 4.1)&#39;</span><span class="p">,</span>
               <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;tab:cyan&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:olive&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:purple&#39;</span><span class="p">),</span> <span class="n">rot</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Porto de embarque (figura 4.1)&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
 </pre></div>
@@ -13628,6 +13637,16 @@ Embarked (Embarque): Porto de embarque (C= Chebourg, Q = Queenstown, S=Southampt
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><i>Na figura 4.1 exibe a quantidade de pessoas por embarque. Percebe-se pelo gráfico `figura 4.1` que 644 pessoas embarcaram partiu do porto de Southampton, na Inglaterra, para dar início à sua viagem inaugura.
+</i></p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -13756,11 +13775,21 @@ Bilhetes unicos:  7
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Conclus&#227;o">Conclus&#227;o<a class="anchor-link" href="#Conclus&#227;o">&#182;</a></h2><p>Na análise teve como objetivo saber a maior chance de sobreviventes que outros. 
-Identificamos que fatores como a Classe, Sexo e Idade realmente influenciaram para o aumento ou diminuição das chances de sobrevivência.<p>
-Quando se faz a análise da Classe percebe-se na figura 3.1,3.2, 3.3 houve mais sobreviventes na classe rica.<p></p>
-<p>Quando faz analise do sexo, percebe-se que na figura 5.1 os mais sobrevivente foram mulheres. Este gráfico mostra a diferença.<p>
+Identificamos que fatores como a Classe, Sexo e Idade realmente influenciaram para o aumento ou diminuição das chances de sobrevivência.<br>
+Quando se faz a análise da Classe percebe-se na figura 3.1,3.2, 3.3 houve mais sobreviventes na classe rica.<br></p>
+<p>Quando faz analise do sexo, percebe-se que na figura 5.1 os mais sobrevivente foram mulheres. Este gráfico mostra a diferença.<br>
 Outra análise foram os sobrevivente e os mortos por idade. Nesta análise foram divididas em três tipos as crianças definido até 15 anos, os adultos menor que 45 e os idosos acima de 45. E percebe-se na nossa análise que os idosos foram os que mais morreram figura 2.2.<p>
-Este estudo pode ser continuado com a análise de outras variáveis, explorar e encontrar novos insights utilizando as informações desta base para gerar novas variáveis.</p>
+ <i><h3>Limitações</h3><br>
+Nesta análise percebe que há limitação do conjunto de dados:<br></p>
+<ol>
+<li>A diferença entre a amostra e a população, não sabemos como a amostra foi escolhida da população real de pessoas.</li>
+<li>Com isso não é possível informar realmente a quantidade de passageiros mortos.</li>
+<li>Na coluna de Embarked havia dois dados faltando, acabei removendo os dados.</li>
+<li>Na idade 177 campos tiveram de ser excluídos da análise porque as idades não foram informadas
+<p>
+&lt;/i&gt;
+Este estudo pode ser continuado com a análise de outras variáveis, explorar e encontrar novos insights utilizando as informações desta base para gerar novas variáveis. </li>
+</ol>
 
 </div>
 </div>
@@ -13770,16 +13799,19 @@ Este estudo pode ser continuado com a análise de outras variáveis, explorar e 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Fonte de pesquisa:</p>
-<p><a href="https://blog.csdn.net/u010016927/article/details/75451971">https://blog.csdn.net/u010016927/article/details/75451971</a>
-<a href="https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc">https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc</a>
-<a href="https://blog.csdn.net/u010016927/article/details/75451971">https://blog.csdn.net/u010016927/article/details/75451971</a>
-<a href="http://campus.lakeforest.edu/frank/FILES/MLFfiles/Bio150/Titanic/TitanicMETA">http://campus.lakeforest.edu/frank/FILES/MLFfiles/Bio150/Titanic/TitanicMETA</a>.
-<a href="https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5">https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5</a>
-<a href="https://medium.com/marciojesus/investigando-o-naufr%C3%A1gio-do-titanic-b478c7750d31">https://medium.com/marciojesus/investigando-o-naufr%C3%A1gio-do-titanic-b478c7750d31</a>
-<a href="https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc">https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc</a>
-<a href="https://mundoestranho.abril.com.br/ambiente/em-naufragios-criancas-e-mulheres-tem-mesmo-prioridade/">https://mundoestranho.abril.com.br/ambiente/em-naufragios-criancas-e-mulheres-tem-mesmo-prioridade/</a>
-<a href="https://www.kaggle.com/c/titanic/data">https://www.kaggle.com/c/titanic/data</a>
-<a href="http://minerandodados.com.br/index.php/2017/09/26/python-para-analise-de-dados/">http://minerandodados.com.br/index.php/2017/09/26/python-para-analise-de-dados/</a></p>
+<p><a href="https://blog.csdn.net/u010016927/article/details/75451971">https://blog.csdn.net/u010016927/article/details/75451971</a><br>
+<a href="https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc">https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc</a><br>
+<a href="https://blog.csdn.net/u010016927/article/details/75451971">https://blog.csdn.net/u010016927/article/details/75451971</a><br>
+<a href="http://campus.lakeforest.edu/frank/FILES/MLFfiles/Bio150/Titanic/TitanicMETA">http://campus.lakeforest.edu/frank/FILES/MLFfiles/Bio150/Titanic/TitanicMETA</a>.<br>
+<a href="https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5">https://paulovasconcellos.com.br/o-que-o-naufr%C3%A1gio-do-titanic-nos-ensina-at%C3%A9-hoje-data-science-project-2fea8ff1c9b5</a><br>
+<a href="https://medium.com/marciojesus/investigando-o-naufr%C3%A1gio-do-titanic-b478c7750d31">https://medium.com/marciojesus/investigando-o-naufr%C3%A1gio-do-titanic-b478c7750d31</a><br>
+<a href="https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc">https://towardsdatascience.com/visualization-learning-from-disaster-titanic-42eeb99cdbdc</a><br>
+<a href="https://mundoestranho.abril.com.br/ambiente/em-naufragios-criancas-e-mulheres-tem-mesmo-prioridade/">https://mundoestranho.abril.com.br/ambiente/em-naufragios-criancas-e-mulheres-tem-mesmo-prioridade/</a><br>
+<a href="https://www.kaggle.com/c/titanic/data">https://www.kaggle.com/c/titanic/data</a><br>
+<a href="http://minerandodados.com.br/index.php/2017/09/26/python-para-analise-de-dados/">http://minerandodados.com.br/index.php/2017/09/26/python-para-analise-de-dados/</a><br>
+<a href="http://www.vitormeriat.com.br/2017/03/18/titanic-machine-learning-from-disaster/">http://www.vitormeriat.com.br/2017/03/18/titanic-machine-learning-from-disaster/</a><br>
+<a href="https://paulovasconcellos.com.br/competicao-kaggle-titanic-tutorial-5b11993774f7">https://paulovasconcellos.com.br/competicao-kaggle-titanic-tutorial-5b11993774f7</a><br>
+ <a href="http://ultimosegundo.ig.com.br/mundo/nyt/porto-de-onde-titanic-partiu-presta-homenagem-a-vitimas/n1597739855666.html">http://ultimosegundo.ig.com.br/mundo/nyt/porto-de-onde-titanic-partiu-presta-homenagem-a-vitimas/n1597739855666.html</a></p>
 
 </div>
 </div>
